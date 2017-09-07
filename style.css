@@ -1,0 +1,13 @@
+p {
+	color: blue;
+	
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
