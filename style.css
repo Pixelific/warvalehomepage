@@ -3,12 +3,13 @@
     float: none;
 }
 
-.navbar .navbar-collapse {
-    text-align: center;
-}
-
 h1 {
 	color: white;
+}
+
+* {
+  text-align: center;
+  max-width: 100%;
 }
 
 .main-page {
@@ -30,19 +31,27 @@ h1 {
 	color: white;
 }
 
-body { 
-  padding-top: 3%;
-  padding-right: 0px !important;
-  max-height: 140px;
-  background-color: #f0f0f0;
-  background: url("./content/bk3.jpg") no-repeat;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+body, html {
+  height: 100%;
+  background: -moz-linear-gradient(90deg, rgba(237,238,255,1) 0%, rgba(237,238,255,1) 1%, rgba(254,254,255,1) 41%, rgba(255,255,255,1) 42%); /* ff3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(58%, rgba(255,255,255,1)), color-stop(59%, rgba(254,254,255,1)), color-stop(99%, rgba(237,238,255,1)), color-stop(100%, rgba(237,238,255,1))); /* safari4+,chrome */
+  background: -webkit-linear-gradient(90deg, rgba(237,238,255,1) 0%, rgba(237,238,255,1) 1%, rgba(254,254,255,1) 41%, rgba(255,255,255,1) 42%); /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(90deg, rgba(237,238,255,1) 0%, rgba(237,238,255,1) 1%, rgba(254,254,255,1) 41%, rgba(255,255,255,1) 42%); /* opera 11.10+ */
+  background: -ms-linear-gradient(90deg, rgba(237,238,255,1) 0%, rgba(237,238,255,1) 1%, rgba(254,254,255,1) 41%, rgba(255,255,255,1) 42%); /* ie10+ */
+  background: linear-gradient(0deg, rgba(237,238,255,1) 0%, rgba(237,238,255,1) 1%, rgba(254,254,255,1) 41%, rgba(255,255,255,1) 42%); /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#EDEEFF',GradientType=0 ); /* ie6-9 */
+
+}
+
+.bg {
+    padding-top: 5%;
+    background-image: url("./content/bk3.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 3%;
+    text-align: center;
 }
 
 #pixie {
@@ -50,4 +59,54 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+#video1 {
+  margin-top: 880px;
+  height: 600px;
+  width: 65%;
+  margin-bottom: 50px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+#htext1, #htext2 {
+  font-size: 45px;
+  text-align: center;
+  font-weight: 600;
+}
+
+#hicon1, #hicon2 {
+  font-size: 30px;
+  padding-top: 80px;
+}
+
+#hicon1 {
+  color: #991706;
+}
+
+#hicon2 {
+  color: #170e6d;
+}
+
+#htext1, #hicon1 {
+padding-right: 80px;
+}
+
+#htext2, #hicon2 {
+padding-left: 80px;
+}
+
+#dtext1 {
+padding-right: 80px;
+font-size: 15px;
+}
+
+#dtext2 {
+padding-left: 80px;
+font-size: 15px;
 }
