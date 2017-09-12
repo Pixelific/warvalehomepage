@@ -68,31 +68,60 @@ html, body {
   left: 0;
 }
 
-#video1, #video2 {
+#video1, #video2, #video3, #video4 {
   text-align: center;
   border-radius: 150px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-#htext1, #htext2 {
+#video1:hover, #video2:hover, #video3:hover, #video4:hover {
+  border-radius: 115px;
+  box-shadow: 0 38px 46px 0 rgba(0,0,0,0.2);
+}
+
+#htext1, #htext2, #htext3, #htext4 {
   font-size: 45px;
   text-align: center;
   font-weight: 600;
 }
 
-#hicon1, #hicon2 {
+hr {
+height: 1px;
+color: #123455;
+background-color: #123455;
+border: none;
+}
+
+#htext1:hover, #htext2:hover, #htext3:hover, #htext4:hover {
+  text-shadow: 1px 1px lightgray;
+}
+
+#hicon1, #hicon2, #hicon3, #hicon4 {
   font-size: 30px;
   padding-top: 80px;
 }
 
+#hicon1:hover, #hicon2:hover, #hicon3:hover, #hicon4:hover {
+  font-size: 34px;
+}
+
 #hicon1 {
-  color: #991706;
+  color: #494643;
 }
 
 #hicon2 {
   color: #369dd1;
 }
 
-#dtext1, #dtext2 {
+#hicon3 {
+  color: #991706;
+}
+
+#hicon4 {
+  color: green;
+}
+
+#dtext1, #dtext2, #dtext3, #dtext4 {
   font-size: 15px;
   margin-bottom: 25px;
 }
