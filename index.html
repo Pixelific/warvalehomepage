@@ -52,12 +52,29 @@
 			</div>
 		</nav>
 
+		<p id="iptext">warvale.net</p>
 		<div class="main-page">
 			<div id="main-title">
 				<p>Warvale</p>
 			</div>
 			<p id="info-paragraph">Play. Compete. Repeat.</p>
-			<p id="ip">IP: warvale.net</p>
+			<p id="ip">IP: warvale.net&nbsp;<button id="copyip" class="btn btn-info" onclick="copyToClipboard('#iptext')">Copy</button></p>
+		</div>
+
+		<script>
+		function copyToClipboard(element) {
+			var $temp = $("<input>");
+			$("body").append($temp);
+			$temp.val($(element).text()).select();
+			document.execCommand("copy");
+			$temp.remove();
+		}
+		</script>
+
+		<a href="#wv" class="btn btn-success">Learn More</a><br>
+
+		<div class="bounce">
+			<img id="arrowdown" src="http://www.freeiconspng.com/uploads/white-down-arrow-png-2.png"/>
 		</div>
 
 		<div id="container">
@@ -146,7 +163,9 @@
 		}
 		</script>
 	</div>
-<hr/>
+
+	<div id="wv">
+	</div>
 	<div class="gradientbk">
 		<div class="row">
 			<div class="row justify-content-center col-md-12">
@@ -187,7 +206,7 @@
 				</div>
 			</div>
 		</div>
-<hr size="10" noshade>
+		<hr size="10" noshade>
 
 		<div class="row">
 			<div class="row justify-content-center col-md-12">
