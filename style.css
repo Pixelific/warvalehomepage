@@ -63,7 +63,6 @@ html, body {
 }
 
 #pixie {
-  z-index:10;
   top: 0;
   left: 0;
 }
