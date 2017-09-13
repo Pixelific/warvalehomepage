@@ -3,6 +3,7 @@
   float: none;
 }
 
+
 h1 {
   color: white;
 }
@@ -94,6 +95,10 @@ html, body {
   60% {
     transform: translateY(-15px);
   }
+}
+
+.gradientbk {
+  text-align: center;
 }
 
 #video1, #video2, #video3, #video4 {
