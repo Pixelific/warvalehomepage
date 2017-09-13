@@ -21,6 +21,12 @@ h1 {
 
 }
 
+.row {
+  text-align: center;
+  float: none;
+  margin: 0 auto;
+}
+
 #main-title {
   font-size: 90px;
   letter-spacing: 4px;
