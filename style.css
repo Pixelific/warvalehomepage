@@ -22,7 +22,7 @@ h1 {
 .row {
   text-align: center;
   float: none;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
 }
 
 #main-title {
@@ -41,7 +41,7 @@ h1 {
 }
 
 html, body {
-  height: 100%;
+  /*height: 100%;*/
 }
 
 .gradientbk {
@@ -62,7 +62,7 @@ html, body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 3%;
+  /*padding-bottom: 3%;*/
   text-align: center;
 }
 
@@ -116,13 +116,6 @@ html, body {
   font-size: 45px;
   text-align: center;
   font-weight: 600;
-}
-
-hr {
-  height: 1px;
-  color: #123455;
-  background-color: #123455;
-  border: none;
 }
 
 #htext1:hover, #htext2:hover, #htext3:hover, #htext4:hover {
