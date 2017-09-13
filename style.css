@@ -105,7 +105,7 @@ html, body {
   text-align: center;
   border-radius: 150px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  max-width: 80%;
+  max-width: 85%;
 }
 
 #video1:hover, #video2:hover, #video3:hover, #video4:hover {
