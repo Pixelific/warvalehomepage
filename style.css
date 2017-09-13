@@ -43,6 +43,7 @@ h1 {
 
 html, body {
   height: 100%;
+  max-width: 100%;
 }
 
 .gradientbk {
