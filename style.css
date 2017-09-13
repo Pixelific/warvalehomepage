@@ -51,7 +51,6 @@ html, body {
   background: -ms-linear-gradient(90deg, rgba(237,238,255,1) 0%, rgba(237,238,255,1) 1%, rgba(254,254,255,1) 41%, rgba(255,255,255,1) 42%); /* ie10+ */
   background: linear-gradient(0deg, rgba(237,238,255,1) 0%, rgba(237,238,255,1) 1%, rgba(254,254,255,1) 41%, rgba(255,255,255,1) 42%); /* w3c */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#EDEEFF',GradientType=0 ); /* ie6-9 */
-
 }
 
 .bg {
@@ -69,6 +68,7 @@ html, body {
   left: 0;
   max-height: 100%;
   z-index: -1;
+  margin-bottom: 400px;
 }
 
 #arrowdown {
