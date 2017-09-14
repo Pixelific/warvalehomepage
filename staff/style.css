@@ -3,17 +3,12 @@
   float: none;
 }
 
-h1 {
-  color: white;
-}
-
 * {
   text-align: center;
-  /*max-width: 100%;*/
 }
 
 html, body {
-  height: 100%;
+  /*height: 100%;*/
 }
 
 .gradientbk {
