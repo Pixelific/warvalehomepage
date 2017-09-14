@@ -8,7 +8,7 @@
 }
 
 html, body {
-  /*height: 100%;*/
+  height: 100%;
 }
 
 .gradientbk {
@@ -21,18 +21,67 @@ html, body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#EDEEFF',GradientType=0 ); /* ie6-9 */
 }
 
+#title {
+  padding-top: 120px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#description {
+  font-size: 20px;
+  color: gray;
+}
+
+#rankdesc {
+  color: gray;
+  font-size: 15px;
+}
+
+#staffhead {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+}
+
+#staffname {
+  color: gray;
+  font-size: 17px;
+}
+
 #heart-text {
-  /*margin-top: 70px;*/
+  margin-top: 70px;
   bottom: 0px;
   font-size: 25px;
-  /*margin-bottom: 40px;*/
+  margin-bottom: 40px;
+}
+
+#admins, #devs, #srmods, #mods, #jrmods, #builders {
+  padding-top: 20px;
+  font-size: 35px;
 }
 
 #admins {
-  bottom: 0px;
-  font-size: 25px;
-  color: red;
+  color: #b22121;
 }
+
+#devs {
+  color: #ce2121;
+}
+
+#srmods {
+  color: #e06d08;
+}
+
+#mods, #jrmods {
+  color: #e57512;
+}
+
+#builders {
+  color: #146637;
+}
+
+
+
 
 #heart {
   color: #c4322f;
