@@ -41,3 +41,7 @@ html, body {
   color: #e82002;
   font-size: 28px;
 }
+
+#admins {
+  color: red;
+}
