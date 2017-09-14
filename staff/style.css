@@ -41,11 +41,8 @@ html, body {
   height: 50px;
   width: 50px;
   border-radius: 5px;
-}
-
-#staffname {
-  color: gray;
-  font-size: 17px;
+  display: inline-block;
+  margin: 10px;
 }
 
 #heart-text {
@@ -62,6 +59,7 @@ html, body {
 
 #admins {
   color: #b22121;
+  display: inline-block;
 }
 
 #devs {
@@ -79,9 +77,6 @@ html, body {
 #builders {
   color: #146637;
 }
-
-
-
 
 #heart {
   color: #c4322f;
