@@ -28,6 +28,12 @@ html, body {
   /*margin-bottom: 40px;*/
 }
 
+#admins {
+  bottom: 0px;
+  font-size: 25px;
+  color: red;
+}
+
 #heart {
   color: #c4322f;
 }
@@ -35,8 +41,4 @@ html, body {
 #heart:hover {
   color: #e82002;
   font-size: 28px;
-}
-
-#admins {
-  color: red;
 }
