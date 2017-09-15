@@ -14,10 +14,21 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-</head>
+	<!-- CLIPBOARD COPYING IP -->
+	<script>
+	function copyToClipboard(element) {
+		var $temp = $("<input>");
+		$("body").append($temp);
+		$temp.val($(element).text()).select();
+		document.execCommand("copy");
+		$temp.remove();
+	}
+	</script>
 
+</head>
 <body>
-	<div class="bg">
+	<div class="main-background">
+		<!-- NAVIGATION BAR -->
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container-fluid">
 				<div class="navbar-header">
@@ -39,29 +50,18 @@
 				</div>
 			</div>
 		</nav>
+		<!-- FIREFLIES -->
 
 		<canvas id="pixie"></canvas>
 
-		<div class="hometext">
-			<p id="iptext">warvale.net</p>
-			<div class="main-page">
+		<div class="main-background-content">
+			<div class="main-page-content">
 				<div id="main-title">
 					<p>Warvale</p>
 				</div>
 				<p id="info-paragraph">Play. Compete. Repeat.</p>
-				<p id="ip">IP: warvale.net&nbsp;<button id="copyip" class="btn btn-info" onclick="copyToClipboard('#iptext')">Copy</button></p>
+				<p id="main-background-ip-text">IP: warvale.net&nbsp;<button id="copyip" class="btn btn-info" onclick="copyToClipboard('#iptext')">Copy</button></p>
 			</div>
-
-			<script>
-			function copyToClipboard(element) {
-				var $temp = $("<input>");
-				$("body").append($temp);
-				$temp.val($(element).text()).select();
-				document.execCommand("copy");
-				$temp.remove();
-			}
-			</script>
-
 			<a href="#wv" class="btn btn-success">Learn More</a><br>
 			<div class="bounce">
 				<img id="arrowdown" src="http://www.freeiconspng.com/uploads/white-down-arrow-png-2.png"/>
@@ -69,6 +69,7 @@
 		</div>
 	</div>
 
+<!-- FIREFLIES Javascript -->
 	<script>
 	var WIDTH;
 	var HEIGHT;
@@ -149,38 +150,39 @@
 		this.getX = function() { return this.x; }
 		this.getY = function() { return this.y; }
 	}
-</script>
+	</script>
 
 	<div id="wv">
 	</div>
 
+<!-- VIDEO section -->
 	<div class="gradientbk">
 		<div class="container-fluid">
 			<div class="row justify-content-center col-md-12 text-center">
 
 				<div class="col-md-6">
-					<span id="hicon1" class="glyphicon glyphicon-tower"></span><p id="htext1">Play Competitively</p>
-					<p id="dtext1">Warvale is all about competing against your opponents.<br>Battle it out against your enemies!</p>
+					<span id="gif-icon-1" class="glyphicon glyphicon-tower"></span><p id="gif-title-1">Play Competitively</p>
+					<p id="gif-desc-1">Warvale is all about competing against your opponents.<br>Battle it out against your enemies!</p>
 					<img id="video1" src="https://media.giphy.com/media/t92YxAYom1PbO/giphy.gif"/>
 				</div>
 
 				<div class="col-md-6">
-					<span id="hicon2" class="glyphicon glyphicon-globe"></span><p id="htext2">Join the Community</p>
-					<p id="dtext2">Play with people and friends from around the globe.<br>The Warvale community is fun and growing!</p>
+					<span id="gif-icon-2" class="glyphicon glyphicon-globe"></span><p id="gif-title-2">Join the Community</p>
+					<p id="gif-desc-2">Play with people and friends from around the globe.<br>The Warvale community is fun and growing!</p>
 					<img id="video2" src="https://media.giphy.com/media/3ZYoIj4c1NNjq/giphy.gif"/>
 				</div>
 			</div>
 
 			<div class="row justify-content-center col-md-12 text-center">
 				<div class="col-md-6">
-					<span id="hicon3" class="glyphicon glyphicon-heart"></span><p id="htext3">Play with Friends</p>
-					<p id="dtext3">Have fun in our beach lobby!<br>Join forces with your friends to conquer the games to come.</p>
+					<span id="gif-icon-3" class="glyphicon glyphicon-heart"></span><p id="gif-title-3">Play with Friends</p>
+					<p id="gif-desc-3">Have fun in our beach lobby!<br>Join forces with your friends to conquer the games to come.</p>
 					<img id="video3" src="https://media.giphy.com/media/CfhkbV4p0MlUY/giphy.gif"/>
 				</div>
 
 				<div class="col-md-6">
-					<span id="hicon4" class="glyphicon glyphicon-user"></span><p id="htext4">Team-Based Games</p>
-					<p id="dtext4">Games on Warvale are also and team-based.<br>Help your team be victorious!</p>
+					<span id="gif-icon-4" class="glyphicon glyphicon-user"></span><p id="gif-title-4">Team-Based Games</p>
+					<p id="gif-desc-4">Games on Warvale are also and team-based.<br>Help your team be victorious!</p>
 					<img id="video4" src="https://media.giphy.com/media/INSyUc0yh0vfi/giphy.gif"/>
 				</div>
 			</div>
