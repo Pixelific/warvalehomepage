@@ -27,22 +27,26 @@ html, body {
   font-weight: bold;
 }
 
+#modlist {
+  text-align: center;
+  font-size: 20px;
+  list-style-position: inside;
+}
+
 #description {
   font-size: 20px;
   color: gray;
 }
 
-#rankdesc {
-  color: gray;
-  font-size: 15px;
+#sectiontitle {
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 25px;
 }
 
-#staffhead {
-  height: 50px;
-  width: 50px;
-  border-radius: 5px;
-  display: inline-block;
-  margin: 10px;
+#rule {
+  font-size: 20px;
+  margin-top: 30px;
 }
 
 #heart-text {
@@ -52,31 +56,7 @@ html, body {
   margin-bottom: 40px;
 }
 
-#admins, #devs, #srmods, #mods, #jrmods, #builders {
-  padding-top: 20px;
-  font-size: 35px;
-}
 
-#admins {
-  color: #b22121;
-  display: inline-block;
-}
-
-#devs {
-  color: #ce2121;
-}
-
-#srmods {
-  color: #e06d08;
-}
-
-#mods, #jrmods {
-  color: #e57512;
-}
-
-#builders {
-  color: #146637;
-}
 
 #heart {
   color: #c4322f;
