@@ -47,6 +47,10 @@ body {
   overflow-y: scroll;
 }
 
+#wvip {
+  visibility: hidden;
+}
+
 .gradient-background {
   background: -moz-linear-gradient(90deg, rgba(237,238,255,1) 0%, rgba(237,238,255,1) 1%, rgba(254,254,255,1) 41%, rgba(255,255,255,1) 42%); /* ff3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(58%, rgba(255,255,255,1)), color-stop(59%, rgba(254,254,255,1)), color-stop(99%, rgba(237,238,255,1)), color-stop(100%, rgba(237,238,255,1))); /* safari4+,chrome */
@@ -91,10 +95,6 @@ body {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
-}
-
-#iptext {
-  visibility: hidden;
 }
 
 @keyframes bounce {
