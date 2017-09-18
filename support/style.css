@@ -28,9 +28,26 @@ html, body {
 }
 
 #section-title {
-  margin-top: 30px;
+  margin-top: 5px;
   font-size: 25px;
   line-height: 45px;
+}
+
+#seca, #secb, #secc {
+  margin-top: 120px;
+  margin-bottom: 30px;
+  font-size: 35px;
+  color: #807f82;
+}
+
+#question {
+  font-size: 25px;
+}
+
+#answer {
+  font-size: 19px;
+  color: gray;
+  margin-bottom: 20px;
 }
 
 #description {
@@ -39,9 +56,23 @@ html, body {
   font-weight: 500;
 }
 
+#section-a, #section-b, #section-c {
+  margin-top: 40px;
+}
+
+#findyoursection {
+  margin-top: 25px;
+  font-size: 23px;
+}
+
 #contactus {
   font-size: 13px;
   color: gray;
+}
+
+#contactusend {
+  margin-top: 35px;
+  font-size: 20px;
 }
 
 #heart-text {
@@ -53,6 +84,11 @@ html, body {
 
 #heart {
   color: #c4322f;
+}
+
+#heart-2 {
+  color: #c4322f;
+  font-size: 20px;
 }
 
 #heart:hover {
