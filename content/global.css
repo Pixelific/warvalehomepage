@@ -1,0 +1,42 @@
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none
+}
+
+* {
+    text-align: center
+}
+
+.gradientbk {
+    background: -moz-linear-gradient(90deg, rgba(237, 238, 255, 1) 0, rgba(237, 238, 255, 1) 1%, rgba(254, 254, 255, 1) 41%, rgba(255, 255, 255, 1) 42%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(58%, rgba(255, 255, 255, 1)), color-stop(59%, rgba(254, 254, 255, 1)), color-stop(99%, rgba(237, 238, 255, 1)), color-stop(100%, rgba(237, 238, 255, 1)));
+    background: -webkit-linear-gradient(90deg, rgba(237, 238, 255, 1) 0, rgba(237, 238, 255, 1) 1%, rgba(254, 254, 255, 1) 41%, rgba(255, 255, 255, 1) 42%);
+    background: -o-linear-gradient(90deg, rgba(237, 238, 255, 1) 0, rgba(237, 238, 255, 1) 1%, rgba(254, 254, 255, 1) 41%, rgba(255, 255, 255, 1) 42%);
+    background: -ms-linear-gradient(90deg, rgba(237, 238, 255, 1) 0, rgba(237, 238, 255, 1) 1%, rgba(254, 254, 255, 1) 41%, rgba(255, 255, 255, 1) 42%);
+    background: linear-gradient(0deg, rgba(237, 238, 255, 1) 0, rgba(237, 238, 255, 1) 1%, rgba(254, 254, 255, 1) 41%, rgba(255, 255, 255, 1) 42%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#EDEEFF', GradientType=0)
+}
+
+#heart-text {
+    margin-top: 70px;
+    bottom: 0;
+    font-size: 25px;
+    margin-bottom: 40px
+}
+
+#heart {
+    color: #c4322f
+}
+
+#heart:hover {
+    color: #e82002;
+    font-size: 28px
+}
+
+.footerbk {
+    margin-top: 150px;
+    background: #6190e8;
+    background: -webkit-linear-gradient(to right, #a7bfe8, #6190e8);
+    background: linear-gradient(to right, #a7bfe8, #6190e8);
+    padding-bottom: 40px
+}
