@@ -17,6 +17,14 @@
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#EDEEFF', GradientType=0)
 }
 
+.footerbk {
+    margin-top: 150px;
+    background: #6190e8;
+    background: -webkit-linear-gradient(to right, #a7bfe8, #6190e8);
+    background: linear-gradient(to right, #a7bfe8, #6190e8);
+    padding-bottom: 40px
+}
+
 #heart-text {
     margin-top: 70px;
     bottom: 0;
@@ -33,10 +41,13 @@
     font-size: 28px
 }
 
-.footerbk {
-    margin-top: 150px;
-    background: #6190e8;
-    background: -webkit-linear-gradient(to right, #a7bfe8, #6190e8);
-    background: linear-gradient(to right, #a7bfe8, #6190e8);
-    padding-bottom: 40px
+#linkheader {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#link {
+  color: white;
+  font-size: 17px;
 }

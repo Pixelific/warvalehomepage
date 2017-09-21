@@ -1,16 +1,3 @@
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-}
-
-h1 {
-  color: white;
-}
-
-* {
-  text-align: center;
-}
-
 .main-page-content {
   text-align: center;
   font-size: 28px;
@@ -49,16 +36,6 @@ body {
 
 #wvip {
   visibility: hidden;
-}
-
-.gradient-background {
-  background: -moz-linear-gradient(90deg, rgba(237,238,255,1) 0%, rgba(237,238,255,1) 1%, rgba(254,254,255,1) 41%, rgba(255,255,255,1) 42%); /* ff3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(58%, rgba(255,255,255,1)), color-stop(59%, rgba(254,254,255,1)), color-stop(99%, rgba(237,238,255,1)), color-stop(100%, rgba(237,238,255,1))); /* safari4+,chrome */
-  background: -webkit-linear-gradient(90deg, rgba(237,238,255,1) 0%, rgba(237,238,255,1) 1%, rgba(254,254,255,1) 41%, rgba(255,255,255,1) 42%); /* safari5.1+,chrome10+ */
-  background: -o-linear-gradient(90deg, rgba(237,238,255,1) 0%, rgba(237,238,255,1) 1%, rgba(254,254,255,1) 41%, rgba(255,255,255,1) 42%); /* opera 11.10+ */
-  background: -ms-linear-gradient(90deg, rgba(237,238,255,1) 0%, rgba(237,238,255,1) 1%, rgba(254,254,255,1) 41%, rgba(255,255,255,1) 42%); /* ie10+ */
-  background: linear-gradient(0deg, rgba(237,238,255,1) 0%, rgba(237,238,255,1) 1%, rgba(254,254,255,1) 41%, rgba(255,255,255,1) 42%); /* w3c */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#EDEEFF',GradientType=0 ); /* ie6-9 */
 }
 
 .main-background {
@@ -159,39 +136,4 @@ body {
 #gif-desc-1, #gif-desc-2, #gif-desc-3, #gif-desc-4 {
   font-size: 15px;
   margin-bottom: 25px;
-}
-
-#heart-text {
-  margin-top: 70px;
-  bottom: 0px;
-  font-size: 25px;
-  margin-bottom: 40px;
-}
-
-#heart {
-  color: #c4322f;
-}
-
-#heart:hover {
-  color: #e82002;
-  font-size: 28px;
-}
-
-.footerbk {
-  margin-top: 150px;
-  background: #6190E8;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  padding-bottom: 40px;
-}
-
-#linkheader {
-  color: white;
-  font-size: 22px;
-  font-weight: bold;
-}
-
-#link {
-  color: white;
-  font-size: 17px;
 }
