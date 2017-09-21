@@ -18,7 +18,8 @@
 }
 
 .footerbk {
-    margin-top: 150px;
+
+    /*margin-top: 150px;*/ /*This may be causing issues */
     background: #6190e8;
     background: -webkit-linear-gradient(to right, #a7bfe8, #6190e8);
     background: linear-gradient(to right, #a7bfe8, #6190e8);
