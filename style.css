@@ -34,7 +34,7 @@ body {
   overflow-y: scroll;
 }
 
-#wvip {
+#lm {
   visibility: hidden;
 }
 
@@ -136,4 +136,8 @@ body {
 #gif-desc-1, #gif-desc-2, #gif-desc-3, #gif-desc-4 {
   font-size: 15px;
   margin-bottom: 25px;
+}
+
+.gradientbk {
+  padding-bottom: 100px;
 }
