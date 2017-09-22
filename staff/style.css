@@ -1,0 +1,49 @@
+html, body {
+  height: 100%;
+}
+
+#title {
+  padding-top: 100px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#description {
+  font-size: 20px;
+  color: gray;
+}
+
+#rankdesc {
+  color: gray;
+  font-size: 15px;
+}
+
+#staffhead {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 10px;
+}
+
+#admins, #devs, #srmods, #mods, #jrmods, #builders {
+  padding-top: 20px;
+  font-size: 35px;
+}
+
+#admins {
+  color: #b22121;
+  display: inline-block;
+}
+
+#srmods {
+  color: #e06d08;
+}
+
+#mods, #jrmods {
+  color: #e57512;
+}
+
+#builders {
+  color: #146637;
+}

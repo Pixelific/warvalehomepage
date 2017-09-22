@@ -1,0 +1,62 @@
+html, body {
+  height: 100%;
+}
+
+#title {
+  padding-top: 100px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#section-title {
+  margin-top: 5px;
+  font-size: 25px;
+  line-height: 45px;
+}
+
+#seca, #secb, #secc {
+  margin-top: 120px;
+  margin-bottom: 30px;
+  font-size: 35px;
+  color: #807f82;
+}
+
+#question {
+  font-size: 25px;
+}
+
+#answer {
+  font-size: 19px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+#description {
+  font-size: 25px;
+  color: gray;
+  font-weight: 500;
+}
+
+#section-a, #section-b, #section-c {
+  margin-top: 40px;
+}
+
+#findyoursection {
+  margin-top: 25px;
+  font-size: 23px;
+}
+
+#contactus {
+  font-size: 13px;
+  color: gray;
+}
+
+#contactusend {
+  margin-top: 35px;
+  font-size: 20px;
+}
+
+#heart-2 {
+  color: #c4322f;
+  font-size: 20px;
+}

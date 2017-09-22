@@ -1,0 +1,143 @@
+.main-page-content {
+  text-align: center;
+  font-size: 28px;
+  color: white;
+  text-shadow: 2px 2px #20074f;
+}
+
+.row {
+  text-align: center;
+  float: none;
+}
+
+#main-title {
+  font-size: 90px;
+  letter-spacing: 4px;
+  color: white;
+  text-shadow: 6px 6px #20074f;
+}
+
+#main-background-ip-text {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 4px #20074f;
+  letter-spacing: 2px;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+#lm {
+  visibility: hidden;
+}
+
+.main-background {
+  padding-top: 10%;
+  background-image: url("./content/bk3.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#pixie {
+  top: 0;
+  left: 0;
+  max-height: 100%;
+  position: absolute;
+}
+
+#arrowdown {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.main-background-content {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+#video1, #video2, #video3, #video4 {
+  text-align: center;
+  border-radius: 150px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  max-width: 100%;
+}
+
+#video1:hover, #video2:hover, #video3:hover, #video4:hover {
+  border-radius: 115px;
+  box-shadow: 0 38px 46px 0 rgba(0,0,0,0.2);
+}
+
+#gif-title-1, #gif-title-2, #gif-title-3, #gif-title-4 {
+  font-size: 45px;
+  text-align: center;
+  font-weight: 600;
+}
+
+#gif-title-1:hover, #gif-title-2:hover, #gif-title-3:hover, #gif-title-4:hover {
+  text-shadow: 1px 1px lightgray;
+}
+
+#gif-icon-1, #gif-icon-2, #gif-icon-3, #gif-icon-4 {
+  font-size: 30px;
+  padding-top: 80px;
+}
+
+#gif-icon-1:hover, #gif-icon-2:hover, #gif-icon-3:hover, #gif-icon-4:hover {
+  font-size: 34px;
+}
+
+#gif-icon-1 {
+  color: #494643;
+}
+
+#gif-icon-2 {
+  color: #369dd1;
+}
+
+#gif-icon-3 {
+  color: #991706;
+}
+
+#gif-icon-4 {
+  color: green;
+}
+
+#gif-desc-1, #gif-desc-2, #gif-desc-3, #gif-desc-4 {
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+.gradientbk {
+  padding-bottom: 100px;
+}
