@@ -29,6 +29,7 @@ html, body {
 #admins, #devs, #srmods, #mods, #jrmods, #builders {
   padding-top: 20px;
   font-size: 35px;
+  font-weight: 600;
 }
 
 #admins {

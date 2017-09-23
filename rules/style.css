@@ -19,6 +19,11 @@ html, body {
   color: gray;
 }
 
+#description-2 {
+  font-size: 18px;
+  color: gray;
+}
+
 #sectiontitle {
   margin-top: 30px;
   font-weight: bold;
