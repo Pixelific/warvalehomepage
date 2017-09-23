@@ -15,7 +15,6 @@
     background: -ms-linear-gradient(90deg, rgba(237, 238, 255, 1) 0, rgba(237, 238, 255, 1) 1%, rgba(254, 254, 255, 1) 41%, rgba(255, 255, 255, 1) 42%);
     background: linear-gradient(0deg, rgba(237, 238, 255, 1) 0, rgba(237, 238, 255, 1) 1%, rgba(254, 254, 255, 1) 41%, rgba(255, 255, 255, 1) 42%);
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#EDEEFF', GradientType=0)
-    margin-bottom: 55px;
 }
 
 .footerbk {
