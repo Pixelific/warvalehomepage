@@ -23,3 +23,39 @@ html, body {
   color: #c4322f;
   font-size: 20px;
 }
+
+#positiontype-1, #positiontype-2, #positiontype-3 {
+  font-size: 45px;
+  margin-top: 40px;
+}
+
+#position-desc {
+  font-size: 20px;
+  color: gray;
+  margin-bottom: 30px;
+}
+
+#positiontitle {
+  font-size: 25px;
+}
+
+#job-desc {
+  font-size: 17px;
+}
+
+#positiontype-1 {
+  color: #146637;
+}
+
+#positiontype-2 {
+  color: #b22121;
+}
+
+#positiontype-3 {
+  color: #e57512;
+}
+
+#contactusend {
+  margin-top: 35px;
+  font-size: 20px;
+}
