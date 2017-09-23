@@ -15,6 +15,7 @@
     background: -ms-linear-gradient(90deg, rgba(237, 238, 255, 1) 0, rgba(237, 238, 255, 1) 1%, rgba(254, 254, 255, 1) 41%, rgba(255, 255, 255, 1) 42%);
     background: linear-gradient(0deg, rgba(237, 238, 255, 1) 0, rgba(237, 238, 255, 1) 1%, rgba(254, 254, 255, 1) 41%, rgba(255, 255, 255, 1) 42%);
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#EDEEFF', GradientType=0)
+    padding-bottom: 25px;
 }
 
 .footerbk {
@@ -22,7 +23,6 @@
     background: -webkit-linear-gradient(to right, #a7bfe8, #6190e8);
     background: linear-gradient(to right, #a7bfe8, #6190e8);
     padding-bottom: 40px;
-    margin-top: 15px;
 }
 
 #heart-text {
