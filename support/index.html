@@ -4,7 +4,6 @@
 
   <title>Warvale | Support</title>
   <link rel="icon" href="/content/favicon.png">
-
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Linking to CSS, jQuery, Bootstrap, JavaScript -->
@@ -16,18 +15,20 @@
 
 </head>
 <body>
-
   <div class="main-background">
-    <!-- NAVIGATION BAR -->
+
+    <!-- NAVIGATION BAR location -->
     <div id="nav-placeholder">
     </div>
 
+    <!-- NAVIGATION BAR loader -->
     <script>
     $(function(){
       $("#nav-placeholder").load("../content/navbar.html");
     });
     </script>
 
+    <!-- Page content -->
     <div class="gradientbk">
       <div class="container-fluid">
         <div class="row justify-content-center col-md-12 text-center">
@@ -83,21 +84,23 @@
             <p id="answer">An announcement will be made in our <a href="https://discord.gg/TCQbbjF">Discord</a><br> on when applications open, and you will be directed on how to apply!</p>
 
             <p id="contactusend">Still can't find the answer? Contact a Staff Member on our <a href="https://discord.gg/TCQbbjF">Discord</a></p>
-
+            <br><br>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- FOOTER -->
-    <div id="footer-placeholder">
-    </div>
+  <!-- FOOTER location -->
+  <div id="footer-placeholder">
+  </div>
 
-    <script>
-	$(function(){
-		$("#footer-placeholder").load("../content/footer.html");
-	});
-	</script>
+  <!-- FOOTER loader -->
+  <script>
+  $(function(){
+    $("#footer-placeholder").load("../content/footer.html");
+  });
+  </script>
 
-  </body>
-  </html>
+</body>
+</html>

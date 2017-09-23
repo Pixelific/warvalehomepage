@@ -4,7 +4,6 @@
 
 	<title>Warvale | Staff</title>
 	<link rel="icon" href="/content/favicon.png">
-
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Linking to CSS, jQuery, Bootstrap, JavaScript -->
@@ -16,25 +15,27 @@
 
 </head>
 <body>
-
 	<div class="main-background">
-		<!-- NAVIGATION BAR -->
+
+		<!-- NAVIGATION BAR location -->
 		<div id="nav-placeholder">
 		</div>
 
+		<!-- NAVIGATION BAR loader -->
 		<script>
 		$(function(){
 			$("#nav-placeholder").load("../content/navbar.html");
 		});
 		</script>
 
-		<!-- Staff name hovering -->
+		<!-- Staff name hovering code -->
 		<script>
 		$(document).ready(function(){
 			$('[data-toggle="tooltip"]').tooltip();
 		});
 		</script>
 
+		<!-- Page content -->
 		<div class="gradientbk">
 			<div class="container-fluid">
 				<div class="row justify-content-center col-md-12 text-center">
@@ -50,7 +51,6 @@
 						<!--Admins-->
 						<p id="admins">Admins</p>
 						<p id="rankdesc">The Administrators who develop or manage Warvale.</p>
-
 						<img src="https://i.imgur.com/ChcRZbD.png" id="staffhead" a href="#" data-toggle="tooltip" title="Pixelific"/>
 						<img src="https://minotar.net/avatar/AAces" id="staffhead" a href="#" data-toggle="tooltip" title="AAces"/>
 						<img src="https://minotar.net/avatar/spacetrain31" id="staffhead" a href="#" data-toggle="tooltip" title="spacetrain31"/>
@@ -85,6 +85,7 @@
 						<img src="https://minotar.net/avatar/Cryomium" id="staffhead" a href="#" data-toggle="tooltip" title="Cryomium"/>
 						<img src="https://minotar.net/avatar/Rivals_Of_Aether" id="staffhead" a href="#" data-toggle="tooltip" title="Rivals_Of_Aether"/>
 						<img src="https://minotar.net/avatar/Motionq" id="staffhead" a href="#" data-toggle="tooltip" title="Motionq"/>
+						<br><br>
 
 					</div>
 				</div>
@@ -92,14 +93,16 @@
 		</div>
 	</div>
 
-	<!-- FOOTER -->
+	<!-- FOOTER location -->
 	<div id="footer-placeholder">
 	</div>
 
+	<!-- FOOTER loader -->
 	<script>
 	$(function(){
 		$("#footer-placeholder").load("../content/footer.html");
 	});
 	</script>
+
 </body>
 </html>

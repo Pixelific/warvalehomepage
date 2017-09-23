@@ -4,7 +4,6 @@
 
 	<title>Warvale | Home</title>
 	<link rel="icon" href="/content/favicon.png">
-
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Linking to CSS, jQuery, Bootstrap, JavaScript -->
@@ -14,7 +13,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-	<!-- CLIPBOARD COPYING IP -->
+	<!-- CLIPBOARD COPYING IP code -->
 	<script>
 	function copyToClipboard(element) {
 		var $temp = $("<input>");
@@ -29,19 +28,21 @@
 <body>
 	<div class="main-background">
 
-		<!-- NAVIGATION BAR -->
+		<!-- NAVIGATION BAR location -->
 		<div id="nav-placeholder">
 		</div>
 
+		<!-- NAVIGATION BAR loader -->
 		<script>
 		$(function(){
 			$("#nav-placeholder").load("content/navbar.html");
 		});
 		</script>
 
-		<!-- FIREFLIES -->
+		<!-- FIREFLIES location -->
 		<canvas id="pixie"></canvas>
 
+		<!-- Main content. Includes IP, title, image background. -->
 		<div class="main-background-content">
 			<div class="main-page-content">
 				<div id="main-title">
@@ -52,7 +53,7 @@
 			</div>
 			<a href="#lm" class="btn btn-success">Learn More</a><br>
 			<div class="bounce">
-				<img id="arrowdown" src="https://i.imgur.com/CGzCMUK.png"/>
+				<img id="arrowdown" src="https://i.imgur.com/CGzCMUK.png"/> <!-- The arrow that moves up and down -->
 			</div>
 		</div>
 	</div>
@@ -147,12 +148,14 @@
 		<div class="container-fluid">
 			<div class="row justify-content-center col-md-12 text-center">
 
+				<!-- Video 1 -->
 				<div class="col-md-6">
 					<span id="gif-icon-1" class="glyphicon glyphicon-tower"></span><p id="gif-title-1">Play Competitively</p>
 					<p id="gif-desc-1">Warvale is all about competing against your opponents.<br>Battle it out against your enemies!</p>
 					<img id="video1" src="https://media.giphy.com/media/t92YxAYom1PbO/giphy.gif"/>
 				</div>
 
+				<!-- Video 2 -->
 				<div class="col-md-6">
 					<span id="gif-icon-2" class="glyphicon glyphicon-globe"></span><p id="gif-title-2">Join the Community</p>
 					<p id="gif-desc-2">Play with people and friends from around the globe.<br>The Warvale community is fun and growing!</p>
@@ -160,6 +163,7 @@
 				</div>
 			</div>
 
+			<!-- Video 3 -->
 			<div class="row justify-content-center col-md-12 text-center">
 				<div class="col-md-6">
 					<span id="gif-icon-3" class="glyphicon glyphicon-heart"></span><p id="gif-title-3">Play with Friends</p>
@@ -167,6 +171,7 @@
 					<img id="video3" src="https://media.giphy.com/media/CfhkbV4p0MlUY/giphy.gif"/>
 				</div>
 
+				<!-- Video 4 -->
 				<div class="col-md-6">
 					<span id="gif-icon-4" class="glyphicon glyphicon-user"></span><p id="gif-title-4">Team-Based Games</p>
 					<p id="gif-desc-4">Games on Warvale are also and team-based.<br>Help your team be victorious!</p>
@@ -176,10 +181,11 @@
 		</div>
 	</div>
 
-	<!-- FOOTER -->
+	<!-- FOOTER location -->
 	<div id="footer-placeholder">
 	</div>
 
+	<!-- FOOTER loader -->
 	<script>
 	$(function(){
 		$("#footer-placeholder").load("content/footer.html");
