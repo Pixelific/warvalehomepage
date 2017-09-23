@@ -16,15 +16,11 @@ html, body {
 
 #votelink {
   font-size: 25px;
-  margin-top: 15px;
+  margin: 25px;
   display: block;
 }
 
 #heart-2 {
   color: #c4322f;
   font-size: 20px;
-}
-
-a {
-  margin-top: 20px;
 }
