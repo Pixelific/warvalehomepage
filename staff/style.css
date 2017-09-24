@@ -1,3 +1,9 @@
+/*
+Warvale website - 2017
+Jobs page
+All rights reserved
+*/
+
 html, body {
   height: 100%;
 }
@@ -32,19 +38,7 @@ html, body {
   font-weight: 600;
 }
 
-#admins {
-  color: #b22121;
-  display: inline-block;
-}
-
-#srmods {
-  color: #e06d08;
-}
-
-#mods, #jrmods {
-  color: #e57512;
-}
-
-#builders {
-  color: #146637;
-}
+#admins { color: #b22121; }
+#srmods { color: #e06d08; }
+#mods, #jrmods { color: #e57512; }
+#builders { color: #146637; }

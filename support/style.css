@@ -1,6 +1,10 @@
-html, body {
-  height: 100%;
-}
+/*
+Warvale website - 2017
+Jobs page
+All rights reserved
+*/
+
+html, body { height: 100%; }
 
 #title {
   padding-top: 100px;
@@ -21,9 +25,8 @@ html, body {
   color: #807f82;
 }
 
-#question {
-  font-size: 25px;
-}
+#question { font-size: 25px; }
+#section-a, #section-b, #section-c { margin-top: 40px; }
 
 #answer {
   font-size: 19px;
@@ -35,10 +38,6 @@ html, body {
   font-size: 25px;
   color: gray;
   font-weight: 500;
-}
-
-#section-a, #section-b, #section-c {
-  margin-top: 40px;
 }
 
 #findyoursection {

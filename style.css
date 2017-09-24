@@ -1,3 +1,9 @@
+/*
+Warvale website - 2017
+Jobs page
+All rights reserved
+*/
+
 .main-page-content {
   text-align: center;
   font-size: 28px;
@@ -25,18 +31,14 @@
   letter-spacing: 2px;
 }
 
-html, body {
-  height: 100%;
-}
+html, body { height: 100%; }
 
 body {
   overflow-x: hidden;
   overflow-y: scroll;
 }
 
-#lm {
-  visibility: hidden;
-}
+#lm { visibility: hidden; }
 
 .main-background {
   padding-top: 10%;
@@ -104,40 +106,20 @@ body {
   font-weight: 600;
 }
 
-#gif-title-1:hover, #gif-title-2:hover, #gif-title-3:hover, #gif-title-4:hover {
-  text-shadow: 1px 1px lightgray;
-}
-
 #gif-icon-1, #gif-icon-2, #gif-icon-3, #gif-icon-4 {
   font-size: 30px;
   padding-top: 80px;
 }
 
-#gif-icon-1:hover, #gif-icon-2:hover, #gif-icon-3:hover, #gif-icon-4:hover {
-  font-size: 34px;
-}
-
-#gif-icon-1 {
-  color: #494643;
-}
-
-#gif-icon-2 {
-  color: #369dd1;
-}
-
-#gif-icon-3 {
-  color: #991706;
-}
-
-#gif-icon-4 {
-  color: green;
-}
+#gif-title-1:hover, #gif-title-2:hover, #gif-title-3:hover, #gif-title-4:hover { text-shadow: 1px 1px lightgray; }
+#gif-icon-1:hover, #gif-icon-2:hover, #gif-icon-3:hover, #gif-icon-4:hover { font-size: 34px; }
+#gif-icon-1 { color: #494643; }
+#gif-icon-2 { color: #369dd1; }
+#gif-icon-3 { color: #991706; }
+#gif-icon-4 { color: green; }
+.gradientbk { padding-bottom: 100px; }
 
 #gif-desc-1, #gif-desc-2, #gif-desc-3, #gif-desc-4 {
   font-size: 15px;
   margin-bottom: 25px;
-}
-
-.gradientbk {
-  padding-bottom: 100px;
 }
