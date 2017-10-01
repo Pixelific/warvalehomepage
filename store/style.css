@@ -1,10 +1,12 @@
 /*
 Warvale website - 2017
-Jobs page
+Store page
 All rights reserved
 */
 
 html, body { height: 100%; }
+
+#description, #neon-desc, #perktitle, #itemlist, #glyph { color: gray; }
 
 #title {
   padding-top: 100px;
@@ -12,26 +14,27 @@ html, body { height: 100%; }
   font-weight: bold;
 }
 
-#description {
-  font-size: 20px;
-  color: gray;
-}
-
 #description-2 {
   font-size: 18px;
   color: darkgray;
 }
 
-#video1 {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  text-align: center;
-  border-radius: 150px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  max-width: 100%;
+#neon-title {
+  font-size: 38px;
+  color: #166fff;
+  font-weight: bold;
 }
 
-#video1:hover {
-  border-radius: 115px;
-  box-shadow: 0 38px 46px 0 rgba(0,0,0,0.2);
+#neon-desc {
+  font-size: 25px;
+  font-weight: bold;
 }
+
+#purchase {
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+#glyph { font-size: 35px; }
+#perktitle, #description { font-size: 20px; }
+#itemlist { font-size: 18px; }

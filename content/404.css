@@ -1,0 +1,37 @@
+/*
+Warvale website - 2017
+404 page
+All rights reserved
+*/
+
+html, body { height: 100%; }
+
+#title {
+  padding-top: 100px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#description {
+  font-size: 20px;
+  color: gray;
+}
+
+#description-2 {
+  font-size: 18px;
+  color: darkgray;
+}
+
+#video1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  border-radius: 150px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  max-width: 100%;
+}
+
+#video1:hover {
+  border-radius: 115px;
+  box-shadow: 0 38px 46px 0 rgba(0,0,0,0.2);
+}

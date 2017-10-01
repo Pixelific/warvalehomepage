@@ -1,6 +1,6 @@
 /*
 Warvale website - 2017
-Jobs page
+Home page
 All rights reserved
 */
 
@@ -122,4 +122,9 @@ body {
 #gif-desc-1, #gif-desc-2, #gif-desc-3, #gif-desc-4 {
   font-size: 15px;
   margin-bottom: 25px;
+}
+
+#newstitle {
+  font-size: 30px;
+  font-weight: 600;
 }

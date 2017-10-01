@@ -1,6 +1,6 @@
 /*
 Warvale website - 2017
-Jobs page
+Rules page
 All rights reserved
 */
 
@@ -10,12 +10,6 @@ html, body { height: 100%; }
   padding-top: 100px;
   font-size: 40px;
   font-weight: bold;
-}
-
-#modlist {
-  text-align: center;
-  font-size: 20px;
-  list-style-position: inside;
 }
 
 #description {
@@ -37,4 +31,9 @@ html, body { height: 100%; }
 #rule {
   font-size: 20px;
   margin-top: 30px;
+}
+
+#itemlist {
+  font-size: 20px;
+  color: gray;
 }

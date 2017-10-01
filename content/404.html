@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Warvale | Store</title>
+	<link rel="icon" href="/content/favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Linking to CSS, jQuery, Bootstrap, JavaScript -->
+	<link href="style.css" rel="stylesheet">
+	<link href="../content/global.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+<body>
+	<div class="main-background">
+
+		<!-- NAVIGATION BAR location -->
+		<div id="nav-placeholder">
+		</div>
+
+		<!-- NAVIGATION BAR loader -->
+		<script>
+		$(function(){
+			$("#nav-placeholder").load("../content/navbar.html");
+		});
+		</script>
+
+		<!-- Page content -->
+		<div class="gradientbk">
+			<div class="container-fluid">
+				<div class="row justify-content-center col-md-12 text-center">
+					<div class="col-md-12">
+						<p id="title">Warvale Store</p>
+						<p id="description">The Warvale store is currently being worked on. We will announce once it's ready!</p>
+						<p id="description-2">For now, check out this amazing GIF.</p>
+						<img id="video1" src="fallback.gif"/>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- FOOTER location -->
+	<div id="footer-placeholder">
+	</div>
+
+	<!-- FOOTER loader -->
+	<script>
+	$(function(){
+		$("#footer-placeholder").load("../content/footer.html");
+	});
+	</script>
+
+</body>
+</html>
