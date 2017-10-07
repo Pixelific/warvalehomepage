@@ -45,6 +45,22 @@
             </div>
             <hr>
 
+            <!-- Smooth scroll downs -->
+            <script>
+            $('a[href^="#"]').on('click', function(event) {
+
+              var target = $(this.getAttribute('href'));
+
+              if( target.length ) {
+                event.preventDefault();
+                $('html, body').stop().animate({
+                  scrollTop: target.offset().top
+                }, 1000);
+              }
+
+            });
+            </script>
+
             <!-- Punishments and Appeals -->
             <div id="section-a"></div>
             <p id="seca">Punishments and Appeals</p>

@@ -5,40 +5,30 @@ All rights reserved
 */
 
 .main-page-content {
-  text-align: center;
   font-size: 28px;
   color: white;
   text-shadow: 2px 2px #20074f;
 }
 
-.row {
-  text-align: center;
-  float: none;
-}
-
 #main-title {
   font-size: 90px;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   color: white;
   text-shadow: 6px 6px #20074f;
 }
 
 #main-background-ip-text {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: bold;
   color: white;
   text-shadow: 2px 4px #20074f;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
-
-html, body { height: 100%; }
 
 body {
   overflow-x: hidden;
   overflow-y: scroll;
 }
-
-#lm { visibility: hidden; }
 
 .main-background {
   padding-top: 10%;
@@ -47,7 +37,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
 }
 
 #pixie {
@@ -60,13 +49,11 @@ body {
 #arrowdown {
   height: 50px;
   width: 50px;
-  text-align: center;
   margin-top: 40px;
 }
 
 .main-background-content {
   position: absolute;
-  text-align: center;
   width: 100%;
 }
 
@@ -77,19 +64,12 @@ body {
 }
 
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-30px);
-  }
-  60% {
-    transform: translateY(-15px);
-  }
+  0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-30px); }
+  60% { transform: translateY(-15px); }
 }
 
 #video1, #video2, #video3, #video4 {
-  text-align: center;
   border-radius: 150px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   max-width: 100%;
@@ -102,7 +82,6 @@ body {
 
 #gif-title-1, #gif-title-2, #gif-title-3, #gif-title-4 {
   font-size: 45px;
-  text-align: center;
   font-weight: 600;
 }
 
@@ -117,14 +96,12 @@ body {
 #gif-icon-2 { color: #369dd1; }
 #gif-icon-3 { color: #991706; }
 #gif-icon-4 { color: green; }
+html, body { height: 100%; }
 .gradientbk { padding-bottom: 100px; }
+.row { float: none; }
+#lm { visibility: hidden; }
 
 #gif-desc-1, #gif-desc-2, #gif-desc-3, #gif-desc-4 {
   font-size: 15px;
   margin-bottom: 25px;
-}
-
-#newstitle {
-  font-size: 30px;
-  font-weight: 600;
 }
