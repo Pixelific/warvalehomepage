@@ -1,20 +1,32 @@
+<!--
+Warvale website - 2017
+Home
+All rights reserved
+-->
+
 <!DOCTYPE html>
 <html>
 <head>
-
 	<title>Warvale | Home</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="icon" href="content/favicon.png">
-
+	<link rel="icon" href="/content/favicon.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Warvale is an upcoming Minecraft network featuring PVP games." />
+	<meta name="keywords" content="pixelific,pixlem,pixel,warvale,warv,warv ale, warVale, wv, wvmc,wv minecraft server,minecraft server,minecraft,mc.warvale.net,warvale.net,warvale" />
+	<meta property="og:title" content="Warvale" />
+	<meta property="og:site_name" content="Warvale - PVP games."/>
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://warvale.net/" />
+	<meta property="og:image" href="/content/favicon.png" />
+	<meta property="og:description" content="Warvale is an upcoming Minecraft network featuring PVP games." />
 
 	<!-- Linking to CSS, jQuery, Bootstrap, JavaScript -->
 	<link href="style.css" rel="stylesheet">
+	<link href="content/global.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-	<!-- CLIPBOARD COPYING IP -->
+	<!-- CLIPBOARD COPYING IP code -->
 	<script>
 	function copyToClipboard(element) {
 		var $temp = $("<input>");
@@ -28,48 +40,54 @@
 </head>
 <body>
 	<div class="main-background">
-		<!-- NAVIGATION BAR -->
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobilenav" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
 
-				</div>
-				<div class="collapse navbar-collapse" id="mobilenav">
-					<ul class="nav navbar-nav navbar-center">
-						<li class="active"><a href="https://warvale.net"><span class="glyphicon glyphicon-flag" style="margin-right: 20px; margin-left: 50px"></span> Home</a></li>
-						<li><a href="https://discord.gg/TCQbbjF"><span class="glyphicon glyphicon-globe" style="margin-right: 20px; margin-left: 50px"></span> Community</a></li>
-						<li><a href="http://store.warvale.net"><span class="glyphicon glyphicon-heart" style="margin-right: 20px; margin-left: 50px"></span> Store</a></li>
-						<li><a href="mailto:support@warvale.net"><span class="glyphicon glyphicon-comment" style="margin-right: 20px; margin-left: 50px"></span> Support</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-		<!-- FIREFLIES -->
+		<!-- NAVIGATION BAR location -->
+		<div id="nav-placeholder">
+		</div>
 
+		<!-- NAVIGATION BAR loader -->
+		<script>
+		$(function(){
+			$("#nav-placeholder").load("content/navbar.html");
+		});
+		</script>
+
+		<!-- FIREFLIES location -->
 		<canvas id="pixie"></canvas>
 
+		<!-- Main content. Includes IP, title, image background. -->
 		<div class="main-background-content">
 			<div class="main-page-content">
 				<div id="main-title">
 					<p>Warvale</p>
 				</div>
 				<p id="info-paragraph">Play. Compete. Repeat.</p>
-				<p id="main-background-ip-text">IP: warvale.net&nbsp;<button id="copyip" class="btn btn-info" onclick="copyToClipboard('#main-background-ip-text')">Copy</button></p>
+				<p id="main-background-ip-text">IP: warvale.net&nbsp;<button id="copyip" class="btn btn-info" onclick="copyToClipboard('#lm')">Copy</button></p>
 			</div>
-			<a href="#wv" class="btn btn-success">Learn More</a><br>
+			<a href="#lm" class="btn btn-success">Learn More</a><br>
 			<div class="bounce">
-				<img id="arrowdown" src="http://www.freeiconspng.com/uploads/white-down-arrow-png-2.png"/>
+				<img id="arrowdown" src="https://i.imgur.com/CGzCMUK.png"/> <!-- The arrow that moves up and down -->
 			</div>
 		</div>
 	</div>
 
-<!-- FIREFLIES Javascript -->
+	<!-- Smooth scroll downs -->
+	<script>
+	$('a[href^="#"]').on('click', function(event) {
+
+		var target = $(this.getAttribute('href'));
+
+		if( target.length ) {
+			event.preventDefault();
+			$('html, body').stop().animate({
+				scrollTop: target.offset().top
+			}, 1000);
+		}
+
+	});
+	</script>
+
+	<!-- FIREFLIES Javascript -->
 	<script>
 	var WIDTH;
 	var HEIGHT;
@@ -90,7 +108,6 @@
 			pxs[i].reset();
 		}
 		setInterval(draw,rint);
-		setInterval(draw,rint2);
 
 	});
 
@@ -152,62 +169,54 @@
 	}
 	</script>
 
-	<div id="wv">
+	<div id="lm"><p>warvale.net</p>
 	</div>
 
-<!-- VIDEO section -->
+	<!-- VIDEO section -->
 	<div class="gradientbk">
 		<div class="container-fluid">
-			<div class="row justify-content-center col-md-12 text-center">
 
+			<!-- Top Videos -->
+			<div class="row justify-content-center col-md-12 text-center">
 				<div class="col-md-6">
 					<span id="gif-icon-1" class="glyphicon glyphicon-tower"></span><p id="gif-title-1">Play Competitively</p>
 					<p id="gif-desc-1">Warvale is all about competing against your opponents.<br>Battle it out against your enemies!</p>
-					<img id="video1" src="https://media.giphy.com/media/t92YxAYom1PbO/giphy.gif"/>
+					<img id="video1" src="content/video1.gif"/>
 				</div>
-
 				<div class="col-md-6">
 					<span id="gif-icon-2" class="glyphicon glyphicon-globe"></span><p id="gif-title-2">Join the Community</p>
 					<p id="gif-desc-2">Play with people and friends from around the globe.<br>The Warvale community is fun and growing!</p>
-					<img id="video2" src="https://media.giphy.com/media/3ZYoIj4c1NNjq/giphy.gif"/>
+					<img id="video2" src="content/video2.gif"/>
 				</div>
 			</div>
 
+			<!-- Bottom Videos -->
 			<div class="row justify-content-center col-md-12 text-center">
 				<div class="col-md-6">
 					<span id="gif-icon-3" class="glyphicon glyphicon-heart"></span><p id="gif-title-3">Play with Friends</p>
-					<p id="gif-desc-3">Have fun in our beach lobby!<br>Join forces with your friends to conquer the games to come.</p>
-					<img id="video3" src="https://media.giphy.com/media/CfhkbV4p0MlUY/giphy.gif"/>
+					<p id="gif-desc-3">Join your friends and have a blast.<br>There's a lot of people you can find and meet!</p>
+					<img id="video3" src="content/video3.gif"/>
 				</div>
-
 				<div class="col-md-6">
-					<span id="gif-icon-4" class="glyphicon glyphicon-user"></span><p id="gif-title-4">Team-Based Games</p>
-					<p id="gif-desc-4">Games on Warvale are also and team-based.<br>Help your team be victorious!</p>
-					<img id="video4" src="https://media.giphy.com/media/INSyUc0yh0vfi/giphy.gif"/>
+					<span id="gif-icon-4" class="glyphicon glyphicon-user"></span><p id="gif-title-4">Fun Events</p>
+					<p id="gif-desc-4">Have fun in our beach lobby!<br>Join forces with your friends to conquer the games to come.</p>
+					<img id="video4" src="content/video4.gif"/>
 				</div>
-			</div>
-
-			<div class="row justify-content-center col-md-12 text-center">
-				<div class="col-md-12">
-					<p id="heart-text">Made with <span id="heart" class="glyphicon glyphicon-heart"></span> by <a href="https://warvale.net">Warvale</a></p>
-				</div>
-			</div>
-
-			<div class="row justify-content-center col-md-12 text-center">
-				<div class="col-md-6">
-					<a href="https://warvale.net/rules">Rules</a> —
-					<a href="https://warvale.net/staff">Staff</a> —
-					<a href="https://docs.google.com/document/d/16N1iwBLhCHvCwF5Ljy_keG3udgTudJFFANE10Uk9eng/edit?usp=sharing">Help Warvale</a>
-				</div>
-
-				<div class="col-md-6 text-center">
-					<div class="footer_right">
-						<p>&nbsp; &nbsp; &nbsp;&copy; 2017 <a href="https://warvale.net">Warvale</a></p>
-					</div>
-				</div>
-
 			</div>
 		</div>
 	</div>
+
+
+	<!-- FOOTER location -->
+	<div id="footer-placeholder">
+	</div>
+
+	<!-- FOOTER loader -->
+	<script>
+	$(function(){
+		$("#footer-placeholder").load("content/footer.html");
+	});
+	</script>
+
 </body>
 </html>

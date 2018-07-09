@@ -1,0 +1,52 @@
+/*
+Warvale website - 2017
+Jobs page
+All rights reserved
+*/
+
+html, body { height: 100%; }
+
+#title {
+  padding-top: 100px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#description {
+  font-size: 25px;
+  color: gray;
+  font-weight: 500;
+}
+
+#description-2 {
+  font-size: 20px;
+  color: gray;
+}
+
+#heart-2 {
+  color: #c4322f;
+  font-size: 20px;
+}
+
+#position-desc {
+  font-size: 20px;
+  color: gray;
+  margin-bottom: 30px;
+}
+
+#job-desc { font-size: 17px; }
+#positiontitle { font-size: 25px; }
+#positiontype-1 { color: #146637; }
+#positiontype-2 { color: #b22121; }
+#positiontype-3 { color: #e57512; }
+
+#positiontype-1, #positiontype-2, #positiontype-3 {
+  font-size: 45px;
+  margin-top: 40px;
+}
+
+#contactusend {
+  margin-top: 35px;
+  margin-bottom: 25px;
+  font-size: 20px;
+}

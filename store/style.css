@@ -1,0 +1,40 @@
+/*
+Warvale website - 2017
+Store page
+All rights reserved
+*/
+
+html, body { height: 100%; }
+
+#description, #neon-desc, #perktitle, #itemlist, #glyph { color: gray; }
+
+#title {
+  padding-top: 100px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#description-2 {
+  font-size: 18px;
+  color: darkgray;
+}
+
+#neon-title {
+  font-size: 38px;
+  color: #166fff;
+  font-weight: bold;
+}
+
+#neon-desc {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#purchase {
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+#glyph { font-size: 35px; }
+#perktitle, #description { font-size: 20px; }
+#itemlist { font-size: 18px; }

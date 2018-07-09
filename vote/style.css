@@ -1,0 +1,35 @@
+/*
+Warvale website - 2017
+Vote page
+All rights reserved
+*/
+
+html, body { height: 100%; }
+
+#title {
+  padding-top: 100px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#description {
+  font-size: 25px;
+  color: gray;
+  font-weight: 500;
+}
+
+#description-2 {
+  font-size: 20px;
+  color: gray;
+}
+
+#votelink {
+  font-size: 25px;
+  margin: 20px;
+  display: inline-block;
+}
+
+#heart-2 {
+  color: #c4322f;
+  font-size: 20px;
+}

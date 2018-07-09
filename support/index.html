@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Warvale | Support</title>
+  <link rel="icon" href="/content/favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Linking to CSS, jQuery, Bootstrap, JavaScript -->
+  <link href="style.css" rel="stylesheet">
+  <link href="../content/global.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+<body>
+  <div class="main-background">
+
+    <!-- NAVIGATION BAR location -->
+    <div id="nav-placeholder">
+    </div>
+
+    <!-- NAVIGATION BAR loader -->
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("../content/navbar.html");
+    });
+    </script>
+
+    <!-- Page content -->
+    <div class="gradientbk">
+      <div class="container-fluid">
+        <div class="row justify-content-center col-md-12 text-center">
+          <div class="col-md-12">
+            <p id="title">Warvale Support</p>
+            <p id="description"><b>Have a question? We're here to help! <span id="heart-2" class="glyphicon glyphicon-heart"></span></b></p>
+            <p id="contactus">Can't find the answer? Contact a Staff Member on our <a href="https://discord.gg/TCQbbjF">Discord</a></p>
+            <p id="findyoursection">First, what's your question about<b>?</b></p>
+
+            <div id="section-title">
+              <a href="#section-a">Punishments and Appeals</a><br>
+              <a href="#section-b">Discord Use</a><br>
+              <a href="#section-c">Staff Applications</a><br>
+            </div>
+            <hr>
+
+            <!-- Smooth scroll downs -->
+            <script>
+            $('a[href^="#"]').on('click', function(event) {
+
+              var target = $(this.getAttribute('href'));
+
+              if( target.length ) {
+                event.preventDefault();
+                $('html, body').stop().animate({
+                  scrollTop: target.offset().top
+                }, 1000);
+              }
+
+            });
+            </script>
+
+            <!-- Punishments and Appeals -->
+            <div id="section-a"></div>
+            <p id="seca">Punishments and Appeals</p>
+            <p id="question">I have been banned, what can I do to be unbanned?</p>
+            <p id="answer">Go into the Staff Support channel in our <a href="https://discord.gg/TCQbbjF">Discord</a> and <br>wait for a staff member to help.</p>
+            <p id="question">I found a player using hacks, how can I report them?</p>
+            <p id="answer">Report them via discord. Please use the provided format and be patient while staff <br>review the situation</p>
+            <p id="question">What if I do not have/use Discord?</p>
+            <p id="answer">All appeals and staff questions are handled through Discord. <br>You must have access to Discord in order to appeal or report. </p>
+            <p id="question">What if my appeal is denied?</p>
+            <p id="answer">You can appeal again in one week if you truly feel you should be unbanned, <br>however, if a staff says you are no longer allowed to appeal, you cannot be unpunished.</p>
+
+            <!-- Discord Use -->
+            <div id="section-b"></div>
+            <p id="secb">Discord Use</p>
+            <p id="question">Am I allowed to swear?</p>
+            <p id="answer">Yes, but used in moderation. Do not swear to harass users or <br>use sexual swears.</p>
+            <p id="question">Am I allowed to post or talk about NSFW topics?</p>
+            <p id="answer">Simple answer: no. NSFW is not tolerated on Warvale.</p>
+            <p id="question">What's the staff support channel for?</p>
+            <p id="answer">Staff Support is the channel for appeals and asking staff members <br>questions directly in voice.</p>
+            <p id="question">How do I use Staff Support if I can't use my microphone/voice?</p>
+            <p id="answer">You can privately message a staff member on Discord.</p>
+            <p id="question">Can I advertise my server in the Discord?</p>
+            <p id="answer">No, you aren't allowed to advertise your Discord or Minecraft server.</p>
+            <p id="question">Am I allowed to play earrape/troll songs with the music bot?</p>
+            <p id="answer">Yes, so long as that everybody in the music channel approves.</p>
+
+            <!-- Staff apps -->
+            <div id="section-c"></div>
+            <p id="secb">Staff Applications</p>
+            <p id="question">How do I become a staff member?</p>
+            <p id="answer">An announcement will be made in our <a href="https://discord.gg/TCQbbjF">Discord</a><br> on when applications open, and you will be directed on how to apply!</p>
+
+            <p id="contactusend">Still can't find the answer? Contact a Staff Member on our <a href="https://discord.gg/TCQbbjF">Discord</a></p>
+            <br><br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER location -->
+  <div id="footer-placeholder">
+  </div>
+
+  <!-- FOOTER loader -->
+  <script>
+  $(function(){
+    $("#footer-placeholder").load("../content/footer.html");
+  });
+  </script>
+
+</body>
+</html>

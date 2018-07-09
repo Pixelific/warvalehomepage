@@ -1,0 +1,69 @@
+<!--
+Warvale website - 2017
+Vote
+All rights reserved
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Warvale | Vote</title>
+  <link rel="icon" href="/content/favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Linking to CSS, jQuery, Bootstrap, JavaScript -->
+  <link href="style.css" rel="stylesheet">
+  <link href="../content/global.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+<body>
+  <div class="main-background">
+
+    <!-- NAVIGATION BAR location -->
+    <div id="nav-placeholder">
+    </div>
+
+    <!-- NAVIGATION BAR loader -->
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("../content/navbar.html");
+    });
+    </script>
+
+    <!-- Page content -->
+    <div class="gradientbk">
+      <div class="container-fluid">
+        <div class="row justify-content-center col-md-12 text-center">
+          <div class="col-md-12">
+            <p id="title">Vote for Warvale</p>
+            <p id="description"><b>Support and help grow the community <span id="heart-2" class="glyphicon glyphicon-heart"></span></b></p>
+            <p id="description-2">You can vote once per day on each link!</p><hr> <!-- Voting links -->
+            <a id="votelink" href="https://mcpublic.org/server/warvale.net:25565">Vote on <b>mcpublic.org</b></a><br>
+            <a id="votelink" href="http://minecraftservers.org/server/462218">Vote on <b>mcservers.org</b></a><br>
+            <a id="votelink" href="http://minecraft-server-list.com/server/408379/">Vote on <b>minecraft-server-list.com</b></a><br>
+            <a id="votelink" href="http://topg.org/Minecraft/in-473542">Vote on <b>topg.org</b></a><br>
+            <a id="votelink" href="http://minecraft-mp.com/server/175463/vote/">Vote on <b>minecraft-mp.com</b></a>
+            <br><br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER location -->
+  <div id="footer-placeholder">
+  </div>
+
+  <!-- FOOTER loader -->
+  <script>
+  $(function(){
+    $("#footer-placeholder").load("../content/footer.html");
+  });
+  </script>
+
+</body>
+</html>

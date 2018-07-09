@@ -1,0 +1,84 @@
+<!--
+Warvale website - 2017
+Store
+All rights reserved
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Warvale | Store</title>
+	<link rel="icon" href="/content/favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Linking to CSS, jQuery, Bootstrap, JavaScript -->
+	<link href="style.css" rel="stylesheet">
+	<link href="../content/global.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+
+</head>
+<body>
+	<div class="main-background">
+
+		<!-- NAVIGATION BAR location -->
+		<div id="nav-placeholder">
+		</div>
+
+		<!-- NAVIGATION BAR loader -->
+		<script>
+		$(function(){
+			$("#nav-placeholder").load("../content/navbar.html");
+		});
+		</script>
+
+		<!-- Button hovering code -->
+		<script>
+		$(document).ready(function(){
+			$('[data-toggle="tooltip"]').tooltip();
+		});
+		</script>
+
+		<!-- Page content -->
+		<div class="gradientbk">
+			<div class="container-fluid">
+				<div class="row justify-content-center col-md-12 text-center">
+					<div class="col-md-12">
+						<p id="title">Warvale Store <span id="glyph" class="glyphicon glyphicon-shopping-cart"></span></p>
+						<p id="description">Support Warvale's development by purchasing a rank.</p>
+						<p id="description-2">All profits go back into the development and hosting of Warvale.</p>
+						<hr>
+
+						<p id="neon-title">[NEON]</p>
+						<p id="neon-desc">Lifetime rank</p>
+
+						<p id="perktitle">Purchase <b>[NEON]</b> and get some sweet perks.</p>
+						<p id="itemlist"><b>&bull; </b>Support the server <span id="glyph" style="color:#c13326; font-size: 15px" class="glyphicon glyphicon-heart"></span></p>
+						<p id="itemlist"><b>&bull; </b>Fly in lobby</p>
+						<p id="itemlist"><b>&bull; [NEON]</b> aqua prefix across the whole network</p>
+						<p id="itemlist"><b>&bull; </b>Early access testing and news</p>
+
+						<br><a a href="#" data-toggle="tooltip" title="Store coming soon!" class="btn btn-success" id="purchase">Proceed to purchase <b>NEON</b></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- FOOTER location -->
+	<div id="footer-placeholder">
+	</div>
+
+	<!-- FOOTER loader -->
+	<script>
+	$(function(){
+		$("#footer-placeholder").load("../content/footer.html");
+	});
+	</script>
+
+</body>
+</html>

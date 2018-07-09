@@ -1,0 +1,45 @@
+/*
+Warvale website - 2017
+Youtubers page
+All rights reserved
+*/
+
+html, body { height: 100%; }
+
+#title {
+  padding-top: 100px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#sec {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+
+#section { margin-top: 22px; }
+#description { font-size: 25px; }
+#description-3, #itemlist { color: gray;}
+
+#description-2 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+#description-3 { font-size: 18px; }
+
+#contactus {
+  font-size: 13px;
+  color: gray;
+}
+
+#contactusend {
+  margin-top: 35px;
+  font-size: 20px;
+}
+
+#itemlist {
+  text-align: center;
+  font-size: 18px;
+}

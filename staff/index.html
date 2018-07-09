@@ -1,127 +1,116 @@
+<!--
+Warvale website - 2017
+Staff
+All rights reserved
+-->
+
 <!DOCTYPE html>
 <html>
 <head>
 
 	<title>Warvale | Staff</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="icon" href="../content/favicon.png">
-
+	<link rel="icon" href="/content/favicon.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Linking to CSS, jQuery, Bootstrap, JavaScript -->
 	<link href="style.css" rel="stylesheet">
+	<link href="../content/global.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 </head>
 <body>
-	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobilenav" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-			</div>
-			<div class="collapse navbar-collapse" id="mobilenav">
-				<ul class="nav navbar-nav navbar-center">
-					<li class="active"><a href="https://warvale.net"><span class="glyphicon glyphicon-flag" style="margin-right: 20px; margin-left: 50px"></span> Home</a></li>
-					<li><a href="https://discord.gg/TCQbbjF"><span class="glyphicon glyphicon-globe" style="margin-right: 20px; margin-left: 50px"></span> Community</a></li>
-					<li><a href="http://store.warvale.net"><span class="glyphicon glyphicon-heart" style="margin-right: 20px; margin-left: 50px"></span> Store</a></li>
-					<li><a href="mailto:support@warvale.net"><span class="glyphicon glyphicon-comment" style="margin-right: 20px; margin-left: 50px"></span> Support</a></li>
-				</ul>
-			</div>
-		</nav>
-	</div>
+	<div class="main-background">
 
-	<script>
-	$(document).ready(function(){
-		$('[data-toggle="tooltip"]').tooltip();
-	});
-	</script>
+		<!-- NAVIGATION BAR location -->
+		<div id="nav-placeholder">
+		</div>
 
-	<div class="gradientbk">
-		<div class="container-fluid">
-			<div class="row justify-content-center col-md-12 text-center">
-				<div class="col-md-12">
-					<p id="title">Warvale Staff Team</p>
-					<p id="description">The team that moderates and creates the content of the server.</p>
-				</div>
-			</div>
+		<!-- NAVIGATION BAR loader -->
+		<script>
+		$(function(){
+			$("#nav-placeholder").load("../content/navbar.html");
+		});
+		</script>
 
-			<div class="row justify-content-center col-md-12 text-center">
-				<div class="col-md-12">
+		<!-- Staff name hovering code -->
+		<script>
+		$(document).ready(function(){
+			$('[data-toggle="tooltip"]').tooltip();
+		});
+		</script>
 
-					<!--Admins-->
-					<p id="admins">Admins</p>
-					<p id="rankdesc">The administrators who develop or manage Warvale.</p>
-
-					<img src="https://cdn.discordapp.com/attachments/252932004364943360/358007261433692163/Pixelific.png" id="staffhead" a href="#" data-toggle="tooltip" title="Pixelific"/>
-					<img src="https://cdn.discordapp.com/attachments/252932004364943360/358007283436748800/AAces.png" id="staffhead" a href="#" data-toggle="tooltip" title="AAces"/>
-					<img src="https://cdn.discordapp.com/attachments/252932004364943360/358007277610860544/spacetrain31.png" id="staffhead" a href="#" data-toggle="tooltip" title="spacetrain31"/>
-					<img src="https://cdn.discordapp.com/attachments/252932004364943360/358007274213474314/RONTheCookie.png" id="staffhead" a href="#" data-toggle="tooltip" title="RONTheCookie"/>
-
-					<!--Devs
-					<p id="devs">Developers</p>
-					<p id="rankdesc">The developers of Warvale.</p>
-					<img src="https://cdn.discordapp.com/attachments/252932004364943360/358007376105832450/MHF_Question.png" id="staffhead" a href="#" data-toggle="tooltip" title="?"/>-->
-
-					<!--SrMods-->
-					<p id="srmods">Senior Moderators</p>
-					<p id="rankdesc">The staff managers of Warvale.</p>
-					<img src="https://cdn.discordapp.com/attachments/252932004364943360/358007376105832450/MHF_Question.png" id="staffhead" a href="#" data-toggle="tooltip" title="?"/>
-
-					<!--Mods-->
-					<p id="mods">Moderators</p>
-					<p id="rankdesc">The moderators of Warvale.</p>
-					<img src="https://cdn.discordapp.com/attachments/252932004364943360/358007387904540673/Piinoy.png" id="staffhead" a href="#" data-toggle="tooltip" title="Piinoy"/>
-					<img src="https://cdn.discordapp.com/attachments/252932004364943360/358010122317987840/CommanderG_2.png" id="staffhead" a href="#" data-toggle="tooltip" title="CommanderG_2"/>
-
-					<!--JrMods-->
-					<p id="mods">Junior Moderators</p>
-					<p id="rankdesc">The junior moderators of Warvale.</p>
-					<img src="https://cdn.discordapp.com/attachments/252932004364943360/358007279552954371/Vaid_.png" id="staffhead" a href="#" data-toggle="tooltip" title="Vaid_"/>
-
-					<!--Builders-->
-					<p id="builders">Builders</p>
-					<p id="rankdesc">The build team members of Warvale.</p>
-					<img src="https://cdn.discordapp.com/attachments/252932004364943360/358007335953891329/crumbface.png" id="staffhead" a href="#" data-toggle="tooltip" title="crumbface"/>
-					<img src="https://cdn.discordapp.com/attachments/252932004364943360/358007269734088704/rewrr.png" id="staffhead" a href="#" data-toggle="tooltip" title="rewrr"/>
-					<img src="https://cdn.discordapp.com/attachments/252932004364943360/358007353435488257/Fruitified.png" id="staffhead" a href="#" data-toggle="tooltip" title="Fruitified"/>
-					<img src="https://cdn.discordapp.com/attachments/252932004364943360/358007266642755585/PotatoIq.png" id="staffhead" a href="#" data-toggle="tooltip" title="PotatoIq"/>
-					<img src="https://cdn.discordapp.com/attachments/252932004364943360/358007276117950464/Sadified.png" id="staffhead" a href="#" data-toggle="tooltip" title="Sadified"/>
-					<img src="https://cdn.discordapp.com/attachments/252932004364943360/358007363661463562/JackJack33.png" id="staffhead" a href="#" data-toggle="tooltip" title="JackJack33"/>
-					<img src="https://cdn.discordapp.com/attachments/252932004364943360/358007280714645504/Rascal.png" id="staffhead" a href="#" data-toggle="tooltip" title="_Rascal"/>
-					<img src="https://cdn.discordapp.com/attachments/252932004364943360/358007344375791616/dragonrider455.png" id="staffhead" a href="#" data-toggle="tooltip" title="dragonrider455"/>
-					<img src="https://cdn.discordapp.com/attachments/252932004364943360/358007371735498753/MCGorillasGaming.png" id="staffhead" a href="#" data-toggle="tooltip" title="Cryomium"/>
-					<img src="https://cdn.discordapp.com/attachments/252932004364943360/358007271675920386/RivalsOfAether.png" id="staffhead" a href="#" data-toggle="tooltip" title="Rivals_Of_Aether"/>
-				</div>
-			</div>
-
-			<div class="row justify-content-center col-md-12 text-center">
-				<div class="col-md-12">
-					<p id="heart-text">Made with <span id="heart" class="glyphicon glyphicon-heart"></span> by <a href="https://warvale.net">Warvale</a></p>
-				</div>
-			</div>
-
-			<div class="row justify-content-center col-md-12 text-center">
-				<div class="col-md-6">
-					<!-- Links to site policies/info -->
-					<a href="https://warvale.net/rules">Rules</a> —
-					<a href="https://warvale.net/staff">Staff</a> —
-					<a href="https://docs.google.com/document/d/16N1iwBLhCHvCwF5Ljy_keG3udgTudJFFANE10Uk9eng/edit?usp=sharing">Help Warvale</a>
+		<!-- Page content -->
+		<div class="gradientbk">
+			<div class="container-fluid">
+				<div class="row justify-content-center col-md-12 text-center">
+					<div class="col-md-12">
+						<p id="title">Warvale Staff Team</p>
+						<p id="description">The team that moderates and creates the content of the server.</p>
+					</div>
 				</div>
 
-				<div class="col-md-6 text-center">
-					<div class="footer_right">
-						<p>&nbsp; &nbsp; &nbsp;&copy; 2017 <a href="https://warvale.net">Warvale</a></p>
+				<div class="row justify-content-center col-md-12 text-center">
+					<div class="col-md-12">
+
+						<!--Admins-->
+						<p id="admins">Admins</p>
+						<p id="rankdesc">The Administrators who develop or manage Warvale.</p>
+						<img src="https://minotar.net/helm/Pixelific/100.png" id="staffhead" a href="#" data-toggle="tooltip" title="Pixelific"/>
+						<img src="https://minotar.net/avatar/AAces" id="staffhead" a href="#" data-toggle="tooltip" title="AAces"/>
+						<img src="https://minotar.net/avatar/RONTheCookie" id="staffhead" a href="#" data-toggle="tooltip" title="RONTheCookie"/>
+
+						<!--Devs-->
+						<p id="devs">Developers</p>
+						<p id="rankdesc">The developers of Warvale.</p>
+						<img src="https://minotar.net/avatar/sPoOkYjELlZ" id="staffhead" a href="#" data-toggle="tooltip" title="sPoOkYjELlZ"/>
+
+						<!--SrMods-->
+						<p id="srmods">Senior Moderators</p>
+						<p id="rankdesc">The Senior managers of Warvale.</p>
+						<img src="https://minotar.net/avatar/CommanderG_2" id="staffhead" a href="#" data-toggle="tooltip" title="CommanderG_2"/>
+
+						<!--Mods-->
+						<p id="mods">Moderators</p>
+						<p id="rankdesc">The Moderators of Warvale.</p>
+						<img src="https://minotar.net/avatar/Piinoy" id="staffhead" a href="#" data-toggle="tooltip" title="Piinoy"/>
+
+						<!--JrMods-->
+						<p id="mods">Junior Moderators</p>
+						<p id="rankdesc">The Junior Moderators of Warvale.</p>
+						<img src="https://minotar.net/avatar/Vics" id="staffhead" a href="#" data-toggle="tooltip" title="Vics"/>
+						<img src="https://minotar.net/avatar/Motionq" id="staffhead" a href="#" data-toggle="tooltip" title="Motionq"/>
+						<img src="https://minotar.net/avatar/Cryomium" id="staffhead" a href="#" data-toggle="tooltip" title="Cryomium"/>
+
+						<!--Builders-->
+						<p id="builders">Builders</p>
+						<p id="rankdesc">The Build Team members of Warvale.</p>
+						<img src="https://minotar.net/avatar/crumbface" id="staffhead" a href="#" data-toggle="tooltip" title="crumbface"/>
+						<img src="https://minotar.net/avatar/rewrr" id="staffhead" a href="#" data-toggle="tooltip" title="rewrr"/>
+						<img src="https://minotar.net/avatar/Blazelet" id="staffhead" a href="#" data-toggle="tooltip" title="Blazelet"/>
+						<img src="https://minotar.net/avatar/Attendancy" id="staffhead" a href="#" data-toggle="tooltip" title="Attendancy"/>
+						<img src="https://minotar.net/avatar/JackJack33" id="staffhead" a href="#" data-toggle="tooltip" title="JackJack33"/>
+						<img src="https://minotar.net/avatar/_Rascal" id="staffhead" a href="#" data-toggle="tooltip" title="_Rascal"/>
+						<img src="https://minotar.net/avatar/dragonrider455" id="staffhead" a href="#" data-toggle="tooltip" title="dragonrider455"/>
+						<img src="https://minotar.net/avatar/CRikhard" id="staffhead" a href="#" data-toggle="tooltip" title="CRikhard"/>
+						<br><br>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+
+	<!-- FOOTER location -->
+	<div id="footer-placeholder">
+	</div>
+
+	<!-- FOOTER loader -->
+	<script>
+	$(function(){
+		$("#footer-placeholder").load("../content/footer.html");
+	});
+	</script>
+
 </body>
 </html>
